@@ -31,7 +31,7 @@ def solve_maze_sol(maze, sol, pos_col, pos_row):
     if pos_row >= num_row or pos_col >= num_col:
         return None
 
-    if maze[pos_row][pos_col] == "x":
+    if maze[pos_row][pos_col] == "x": 
         return None
 
     #recusive case
